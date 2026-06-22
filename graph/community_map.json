@@ -1,0 +1,1616 @@
+{
+  "communities": {
+    "1": {
+      "id": 1,
+      "entities": [
+        {
+          "id": "healthcare_holdings",
+          "name": "Healthcare Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_enterprise_software_platform",
+          "name": "Enterprise Software Platform",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_001_rfp_for_enterprise_software_platform_healthcare",
+          "name": "Budget USD 379,082–477,719",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "scope_solution_design_and_architecture",
+          "name": "Solution design and architecture",
+          "type": "concept"
+        },
+        {
+          "id": "hospitality_holdings",
+          "name": "Hospitality Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_011_rfp_for_enterprise_software_platform_hospitality",
+          "name": "Budget USD 441,921–615,712",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_021_rfp_for_enterprise_software_platform_healthcare",
+          "name": "Budget USD 1,737,310–2,397,536",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_031_rfp_for_enterprise_software_platform_hospitality",
+          "name": "Budget USD 2,133,762–2,684,583",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_041_rfp_for_enterprise_software_platform_healthcare",
+          "name": "Budget USD 1,691,224–2,364,448",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_051_rfp_for_enterprise_software_platform_hospitality",
+          "name": "Budget USD 2,158,033–3,393,666",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_061_rfp_for_enterprise_software_platform_healthcare",
+          "name": "Budget USD 960,224–1,107,597",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_071_rfp_for_enterprise_software_platform_hospitality",
+          "name": "Budget USD 1,531,612–1,923,858",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_081_rfp_for_enterprise_software_platform_healthcare",
+          "name": "Budget USD 1,321,041–2,103,566",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_091_rfp_for_enterprise_software_platform_hospitality",
+          "name": "Budget USD 746,890–1,119,392",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10,
+        "concept": 1
+      },
+      "source_docs": [
+        "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-010-rfp-for-application-support-services-insurance.docx",
+        "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-013-rfp-for-managed-security-services-technology.docx",
+        "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-016-rfp-for-erp-implementation-logistics.docx",
+        "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-020-rfp-for-application-support-services-utilities.docx",
+        "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-023-rfp-for-managed-security-services-retail.docx",
+        "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-026-rfp-for-erp-implementation-energy.docx",
+        "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-028-rfp-for-contact-center-transformation-government.docx",
+        "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-030-rfp-for-application-support-services-insurance.docx",
+        "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-036-rfp-for-erp-implementation-logistics.docx",
+        "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-043-rfp-for-managed-security-services-retail.docx",
+        "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-047-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-048-rfp-for-contact-center-transformation-government.docx",
+        "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-053-rfp-for-managed-security-services-technology.docx",
+        "rfp-056-rfp-for-erp-implementation-logistics.docx",
+        "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-063-rfp-for-managed-security-services-retail.docx",
+        "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-068-rfp-for-contact-center-transformation-government.docx",
+        "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-070-rfp-for-application-support-services-insurance.docx",
+        "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-073-rfp-for-managed-security-services-technology.docx",
+        "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-080-rfp-for-application-support-services-utilities.docx",
+        "rfp-081-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-083-rfp-for-managed-security-services-retail.docx",
+        "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-088-rfp-for-contact-center-transformation-government.docx",
+        "rfp-090-rfp-for-application-support-services-insurance.docx",
+        "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-093-rfp-for-managed-security-services-technology.docx",
+        "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-096-rfp-for-erp-implementation-logistics.docx",
+        "rfp-097-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-098-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-099-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-100-rfp-for-application-support-services-utilities.docx"
+      ],
+      "internal_edges": 13,
+      "summary": "",
+      "summary_file": "graph/communities/community_01.md"
+    },
+    "9": {
+      "id": 9,
+      "entities": [
+        {
+          "id": "concept_process_standardization",
+          "name": "Process Standardization",
+          "type": "concept"
+        },
+        {
+          "id": "concept_time_to_market_acceleration",
+          "name": "Time-to-Market Acceleration",
+          "type": "concept"
+        },
+        {
+          "id": "insurance_holdings",
+          "name": "Insurance Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_application_support_services",
+          "name": "Application Support Services",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_010_rfp_for_application_support_services_insurance",
+          "name": "Budget USD 1,218,704–1,626,964",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "utilities_holdings",
+          "name": "Utilities Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_020_rfp_for_application_support_services_utilities",
+          "name": "Budget USD 1,638,374–2,398,159",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_030_rfp_for_application_support_services_insurance",
+          "name": "Budget USD 1,777,884–2,579,149",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_040_rfp_for_application_support_services_utilities",
+          "name": "Budget USD 1,547,296–2,456,976",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_050_rfp_for_application_support_services_insurance",
+          "name": "Budget USD 2,160,551–2,778,437",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_060_rfp_for_application_support_services_utilities",
+          "name": "Budget USD 985,293–1,183,551",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_070_rfp_for_application_support_services_insurance",
+          "name": "Budget USD 630,382–739,741",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_080_rfp_for_application_support_services_utilities",
+          "name": "Budget USD 632,521–1,002,800",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_090_rfp_for_application_support_services_insurance",
+          "name": "Budget USD 1,286,565–1,932,815",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_100_rfp_for_application_support_services_utilities",
+          "name": "Budget USD 346,071–525,129",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "concept": 2,
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10
+      },
+      "source_docs": [
+        "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-003-rfp-for-managed-security-services-retail.docx",
+        "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-006-rfp-for-erp-implementation-energy.docx",
+        "rfp-008-rfp-for-contact-center-transformation-government.docx",
+        "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-010-rfp-for-application-support-services-insurance.docx",
+        "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-020-rfp-for-application-support-services-utilities.docx",
+        "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-030-rfp-for-application-support-services-insurance.docx",
+        "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-036-rfp-for-erp-implementation-logistics.docx",
+        "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-040-rfp-for-application-support-services-utilities.docx",
+        "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-050-rfp-for-application-support-services-insurance.docx",
+        "rfp-060-rfp-for-application-support-services-utilities.docx",
+        "rfp-063-rfp-for-managed-security-services-retail.docx",
+        "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-070-rfp-for-application-support-services-insurance.docx",
+        "rfp-080-rfp-for-application-support-services-utilities.docx",
+        "rfp-081-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-090-rfp-for-application-support-services-insurance.docx",
+        "rfp-100-rfp-for-application-support-services-utilities.docx"
+      ],
+      "internal_edges": 16,
+      "summary": "",
+      "summary_file": "graph/communities/community_09.md"
+    },
+    "2": {
+      "id": 2,
+      "entities": [
+        {
+          "id": "scope_testing_and_cutover_support",
+          "name": "Testing and cutover support",
+          "type": "concept"
+        },
+        {
+          "id": "transportation_holdings",
+          "name": "Transportation Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_digital_workplace_services",
+          "name": "Digital Workplace Services",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_009_rfp_for_digital_workplace_services_transportation",
+          "name": "Budget USD 256,088–367,229",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "real_estate_holdings",
+          "name": "Real Estate Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_019_rfp_for_digital_workplace_services_real_estate",
+          "name": "Budget USD 1,224,481–1,841,488",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "concept_total_cost_of_ownership_reduction",
+          "name": "Total Cost of Ownership Reduction",
+          "type": "concept"
+        },
+        {
+          "id": "budget_rfp_029_rfp_for_digital_workplace_services_transportation",
+          "name": "Budget USD 1,274,226–2,016,277",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_039_rfp_for_digital_workplace_services_real_estate",
+          "name": "Budget USD 405,450–523,651",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_049_rfp_for_digital_workplace_services_transportation",
+          "name": "Budget USD 1,097,834–1,457,438",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_059_rfp_for_digital_workplace_services_real_estate",
+          "name": "Budget USD 1,059,770–1,435,077",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_069_rfp_for_digital_workplace_services_transportation",
+          "name": "Budget USD 689,240–806,177",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_079_rfp_for_digital_workplace_services_real_estate",
+          "name": "Budget USD 1,305,295–1,516,310",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_089_rfp_for_digital_workplace_services_transportation",
+          "name": "Budget USD 1,095,104–1,747,541",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_099_rfp_for_digital_workplace_services_real_estate",
+          "name": "Budget USD 976,759–1,189,139",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "concept": 2,
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10
+      },
+      "source_docs": [
+        "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-006-rfp-for-erp-implementation-energy.docx",
+        "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-016-rfp-for-erp-implementation-logistics.docx",
+        "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-023-rfp-for-managed-security-services-retail.docx",
+        "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-033-rfp-for-managed-security-services-technology.docx",
+        "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-036-rfp-for-erp-implementation-logistics.docx",
+        "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-040-rfp-for-application-support-services-utilities.docx",
+        "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-056-rfp-for-erp-implementation-logistics.docx",
+        "rfp-057-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-060-rfp-for-application-support-services-utilities.docx",
+        "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-066-rfp-for-erp-implementation-energy.docx",
+        "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-068-rfp-for-contact-center-transformation-government.docx",
+        "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-070-rfp-for-application-support-services-insurance.docx",
+        "rfp-073-rfp-for-managed-security-services-technology.docx",
+        "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-076-rfp-for-erp-implementation-logistics.docx",
+        "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-080-rfp-for-application-support-services-utilities.docx",
+        "rfp-081-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-083-rfp-for-managed-security-services-retail.docx",
+        "rfp-086-rfp-for-erp-implementation-energy.docx",
+        "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-090-rfp-for-application-support-services-insurance.docx",
+        "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-093-rfp-for-managed-security-services-technology.docx",
+        "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-096-rfp-for-erp-implementation-logistics.docx",
+        "rfp-098-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-099-rfp-for-digital-workplace-services-real-estate.docx"
+      ],
+      "internal_edges": 15,
+      "summary": "",
+      "summary_file": "graph/communities/community_02.md"
+    },
+    "7": {
+      "id": 7,
+      "entities": [
+        {
+          "id": "scope_data_migration_and_validation",
+          "name": "Data migration and validation",
+          "type": "concept"
+        },
+        {
+          "id": "energy_holdings",
+          "name": "Energy Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_erp_implementation",
+          "name": "ERP Implementation",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_006_rfp_for_erp_implementation_energy",
+          "name": "Budget USD 1,775,134–2,817,111",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "logistics_holdings",
+          "name": "Logistics Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_016_rfp_for_erp_implementation_logistics",
+          "name": "Budget USD 1,903,592–2,284,963",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_026_rfp_for_erp_implementation_energy",
+          "name": "Budget USD 321,669–431,961",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_036_rfp_for_erp_implementation_logistics",
+          "name": "Budget USD 951,864–1,395,760",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_046_rfp_for_erp_implementation_energy",
+          "name": "Budget USD 631,539–994,898",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_056_rfp_for_erp_implementation_logistics",
+          "name": "Budget USD 1,395,268–1,664,259",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_066_rfp_for_erp_implementation_energy",
+          "name": "Budget USD 850,616–1,249,069",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_076_rfp_for_erp_implementation_logistics",
+          "name": "Budget USD 1,683,135–2,077,102",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_086_rfp_for_erp_implementation_energy",
+          "name": "Budget USD 1,755,113–2,387,070",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_096_rfp_for_erp_implementation_logistics",
+          "name": "Budget USD 1,286,359–1,487,465",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "concept": 1,
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10
+      },
+      "source_docs": [
+        "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-003-rfp-for-managed-security-services-retail.docx",
+        "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-006-rfp-for-erp-implementation-energy.docx",
+        "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-008-rfp-for-contact-center-transformation-government.docx",
+        "rfp-010-rfp-for-application-support-services-insurance.docx",
+        "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-016-rfp-for-erp-implementation-logistics.docx",
+        "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-020-rfp-for-application-support-services-utilities.docx",
+        "rfp-023-rfp-for-managed-security-services-retail.docx",
+        "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-026-rfp-for-erp-implementation-energy.docx",
+        "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-030-rfp-for-application-support-services-insurance.docx",
+        "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-036-rfp-for-erp-implementation-logistics.docx",
+        "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-040-rfp-for-application-support-services-utilities.docx",
+        "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-046-rfp-for-erp-implementation-energy.docx",
+        "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-050-rfp-for-application-support-services-insurance.docx",
+        "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-056-rfp-for-erp-implementation-logistics.docx",
+        "rfp-060-rfp-for-application-support-services-utilities.docx",
+        "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-063-rfp-for-managed-security-services-retail.docx",
+        "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-066-rfp-for-erp-implementation-energy.docx",
+        "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-073-rfp-for-managed-security-services-technology.docx",
+        "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-076-rfp-for-erp-implementation-logistics.docx",
+        "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-081-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-086-rfp-for-erp-implementation-energy.docx",
+        "rfp-087-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-088-rfp-for-contact-center-transformation-government.docx",
+        "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-090-rfp-for-application-support-services-insurance.docx",
+        "rfp-092-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-093-rfp-for-managed-security-services-technology.docx",
+        "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-096-rfp-for-erp-implementation-logistics.docx",
+        "rfp-098-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-099-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-100-rfp-for-application-support-services-utilities.docx"
+      ],
+      "internal_edges": 13,
+      "summary": "",
+      "summary_file": "graph/communities/community_07.md"
+    },
+    "8": {
+      "id": 8,
+      "entities": [
+        {
+          "id": "scope_discovery_and_current_state_assessment",
+          "name": "Discovery and current-state assessment",
+          "type": "concept"
+        },
+        {
+          "id": "education_holdings",
+          "name": "Education Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_procurement_outsourcing",
+          "name": "Procurement Outsourcing",
+          "type": "service"
+        },
+        {
+          "id": "concept_operational_efficiency",
+          "name": "Operational Efficiency",
+          "type": "concept"
+        },
+        {
+          "id": "budget_rfp_007_rfp_for_procurement_outsourcing_education",
+          "name": "Budget USD 650,979–976,717",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "agriculture_holdings",
+          "name": "Agriculture Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_017_rfp_for_procurement_outsourcing_agriculture",
+          "name": "Budget USD 857,082–1,076,950",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_027_rfp_for_procurement_outsourcing_education",
+          "name": "Budget USD 448,016–646,616",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_037_rfp_for_procurement_outsourcing_agriculture",
+          "name": "Budget USD 1,255,050–1,708,015",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_047_rfp_for_procurement_outsourcing_education",
+          "name": "Budget USD 1,199,047–1,845,669",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_057_rfp_for_procurement_outsourcing_agriculture",
+          "name": "Budget USD 1,776,323–2,574,608",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_067_rfp_for_procurement_outsourcing_education",
+          "name": "Budget USD 646,847–913,498",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_077_rfp_for_procurement_outsourcing_agriculture",
+          "name": "Budget USD 1,414,119–2,082,924",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_087_rfp_for_procurement_outsourcing_education",
+          "name": "Budget USD 622,954–963,775",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_097_rfp_for_procurement_outsourcing_agriculture",
+          "name": "Budget USD 916,959–1,164,673",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "concept": 2,
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10
+      },
+      "source_docs": [
+        "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-003-rfp-for-managed-security-services-retail.docx",
+        "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-006-rfp-for-erp-implementation-energy.docx",
+        "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-010-rfp-for-application-support-services-insurance.docx",
+        "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-016-rfp-for-erp-implementation-logistics.docx",
+        "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-026-rfp-for-erp-implementation-energy.docx",
+        "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-028-rfp-for-contact-center-transformation-government.docx",
+        "rfp-030-rfp-for-application-support-services-insurance.docx",
+        "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-033-rfp-for-managed-security-services-technology.docx",
+        "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-040-rfp-for-application-support-services-utilities.docx",
+        "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-043-rfp-for-managed-security-services-retail.docx",
+        "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-047-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-050-rfp-for-application-support-services-insurance.docx",
+        "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-053-rfp-for-managed-security-services-technology.docx",
+        "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-056-rfp-for-erp-implementation-logistics.docx",
+        "rfp-057-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-070-rfp-for-application-support-services-insurance.docx",
+        "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-073-rfp-for-managed-security-services-technology.docx",
+        "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-076-rfp-for-erp-implementation-logistics.docx",
+        "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-086-rfp-for-erp-implementation-energy.docx",
+        "rfp-087-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-090-rfp-for-application-support-services-insurance.docx",
+        "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-097-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-100-rfp-for-application-support-services-utilities.docx"
+      ],
+      "internal_edges": 15,
+      "summary": "",
+      "summary_file": "graph/communities/community_08.md"
+    },
+    "5": {
+      "id": 5,
+      "entities": [
+        {
+          "id": "scope_managed_services_and_post_launch_support",
+          "name": "Managed services and post-launch support",
+          "type": "concept"
+        },
+        {
+          "id": "manufacturing_holdings",
+          "name": "Manufacturing Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_data_warehouse_modernization",
+          "name": "Data Warehouse Modernization",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_004_rfp_for_data_warehouse_modernization_manufacturing",
+          "name": "Budget USD 822,122–1,045,308",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "concept_data_visibility_for_leadership",
+          "name": "Data Visibility for Leadership",
+          "type": "concept"
+        },
+        {
+          "id": "construction_holdings",
+          "name": "Construction Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_014_rfp_for_data_warehouse_modernization_construction",
+          "name": "Budget USD 717,473–867,859",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_024_rfp_for_data_warehouse_modernization_manufacturing",
+          "name": "Budget USD 1,278,230–1,516,313",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_034_rfp_for_data_warehouse_modernization_construction",
+          "name": "Budget USD 1,248,887–1,472,943",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_044_rfp_for_data_warehouse_modernization_manufacturing",
+          "name": "Budget USD 1,104,419–1,727,773",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_054_rfp_for_data_warehouse_modernization_construction",
+          "name": "Budget USD 1,040,940–1,217,394",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_064_rfp_for_data_warehouse_modernization_manufacturing",
+          "name": "Budget USD 1,761,926–2,725,561",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_074_rfp_for_data_warehouse_modernization_construction",
+          "name": "Budget USD 832,632–1,192,924",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_084_rfp_for_data_warehouse_modernization_manufacturing",
+          "name": "Budget USD 358,577–513,562",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_094_rfp_for_data_warehouse_modernization_construction",
+          "name": "Budget USD 1,642,797–2,459,012",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "concept": 2,
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10
+      },
+      "source_docs": [
+        "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-003-rfp-for-managed-security-services-retail.docx",
+        "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-006-rfp-for-erp-implementation-energy.docx",
+        "rfp-008-rfp-for-contact-center-transformation-government.docx",
+        "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-010-rfp-for-application-support-services-insurance.docx",
+        "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-013-rfp-for-managed-security-services-technology.docx",
+        "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-016-rfp-for-erp-implementation-logistics.docx",
+        "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-020-rfp-for-application-support-services-utilities.docx",
+        "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-026-rfp-for-erp-implementation-energy.docx",
+        "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-028-rfp-for-contact-center-transformation-government.docx",
+        "rfp-030-rfp-for-application-support-services-insurance.docx",
+        "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-033-rfp-for-managed-security-services-technology.docx",
+        "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-043-rfp-for-managed-security-services-retail.docx",
+        "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-046-rfp-for-erp-implementation-energy.docx",
+        "rfp-047-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-048-rfp-for-contact-center-transformation-government.docx",
+        "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-050-rfp-for-application-support-services-insurance.docx",
+        "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-053-rfp-for-managed-security-services-technology.docx",
+        "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-060-rfp-for-application-support-services-utilities.docx",
+        "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-063-rfp-for-managed-security-services-retail.docx",
+        "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-066-rfp-for-erp-implementation-energy.docx",
+        "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-068-rfp-for-contact-center-transformation-government.docx",
+        "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-076-rfp-for-erp-implementation-logistics.docx",
+        "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-080-rfp-for-application-support-services-utilities.docx",
+        "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-087-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-088-rfp-for-contact-center-transformation-government.docx",
+        "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-092-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-096-rfp-for-erp-implementation-logistics.docx",
+        "rfp-097-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-098-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-100-rfp-for-application-support-services-utilities.docx"
+      ],
+      "internal_edges": 15,
+      "summary": "",
+      "summary_file": "graph/communities/community_05.md"
+    },
+    "3": {
+      "id": 3,
+      "entities": [
+        {
+          "id": "financial_services_holdings",
+          "name": "Financial Services Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_cloud_migration_services",
+          "name": "Cloud Migration Services",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_002_rfp_for_cloud_migration_services_financial_services",
+          "name": "Budget USD 1,193,879–1,456,491",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "scope_implementation_and_configuration",
+          "name": "Implementation and configuration",
+          "type": "concept"
+        },
+        {
+          "id": "scope_training_adoption_and_change_management",
+          "name": "Training, adoption, and change management",
+          "type": "concept"
+        },
+        {
+          "id": "pharmaceuticals_holdings",
+          "name": "Pharmaceuticals Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_012_rfp_for_cloud_migration_services_pharmaceuticals",
+          "name": "Budget USD 953,957–1,122,156",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_022_rfp_for_cloud_migration_services_financial_services",
+          "name": "Budget USD 906,640–1,199,294",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_032_rfp_for_cloud_migration_services_pharmaceuticals",
+          "name": "Budget USD 1,481,185–2,005,799",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_042_rfp_for_cloud_migration_services_financial_services",
+          "name": "Budget USD 1,342,527–1,738,303",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_052_rfp_for_cloud_migration_services_pharmaceuticals",
+          "name": "Budget USD 953,202–1,352,322",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_062_rfp_for_cloud_migration_services_financial_services",
+          "name": "Budget USD 1,739,601–2,327,520",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_072_rfp_for_cloud_migration_services_pharmaceuticals",
+          "name": "Budget USD 783,232–1,094,145",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_082_rfp_for_cloud_migration_services_financial_services",
+          "name": "Budget USD 744,423–899,311",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_092_rfp_for_cloud_migration_services_pharmaceuticals",
+          "name": "Budget USD 983,165–1,230,126",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10,
+        "concept": 2
+      },
+      "source_docs": [
+        "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-003-rfp-for-managed-security-services-retail.docx",
+        "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-006-rfp-for-erp-implementation-energy.docx",
+        "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-008-rfp-for-contact-center-transformation-government.docx",
+        "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-010-rfp-for-application-support-services-insurance.docx",
+        "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-013-rfp-for-managed-security-services-technology.docx",
+        "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-016-rfp-for-erp-implementation-logistics.docx",
+        "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-020-rfp-for-application-support-services-utilities.docx",
+        "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-023-rfp-for-managed-security-services-retail.docx",
+        "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-026-rfp-for-erp-implementation-energy.docx",
+        "rfp-028-rfp-for-contact-center-transformation-government.docx",
+        "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-030-rfp-for-application-support-services-insurance.docx",
+        "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-033-rfp-for-managed-security-services-technology.docx",
+        "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-036-rfp-for-erp-implementation-logistics.docx",
+        "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-040-rfp-for-application-support-services-utilities.docx",
+        "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-043-rfp-for-managed-security-services-retail.docx",
+        "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-046-rfp-for-erp-implementation-energy.docx",
+        "rfp-047-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-048-rfp-for-contact-center-transformation-government.docx",
+        "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-050-rfp-for-application-support-services-insurance.docx",
+        "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-053-rfp-for-managed-security-services-technology.docx",
+        "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-056-rfp-for-erp-implementation-logistics.docx",
+        "rfp-057-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-060-rfp-for-application-support-services-utilities.docx",
+        "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-063-rfp-for-managed-security-services-retail.docx",
+        "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-066-rfp-for-erp-implementation-energy.docx",
+        "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-068-rfp-for-contact-center-transformation-government.docx",
+        "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-070-rfp-for-application-support-services-insurance.docx",
+        "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-076-rfp-for-erp-implementation-logistics.docx",
+        "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-080-rfp-for-application-support-services-utilities.docx",
+        "rfp-081-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-083-rfp-for-managed-security-services-retail.docx",
+        "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-086-rfp-for-erp-implementation-energy.docx",
+        "rfp-087-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-088-rfp-for-contact-center-transformation-government.docx",
+        "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-090-rfp-for-application-support-services-insurance.docx",
+        "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-092-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-093-rfp-for-managed-security-services-technology.docx",
+        "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-096-rfp-for-erp-implementation-logistics.docx",
+        "rfp-097-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-098-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-099-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-100-rfp-for-application-support-services-utilities.docx"
+      ],
+      "internal_edges": 14,
+      "summary": "",
+      "summary_file": "graph/communities/community_03.md"
+    },
+    "4": {
+      "id": 4,
+      "entities": [
+        {
+          "id": "retail_holdings",
+          "name": "Retail Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_managed_security_services",
+          "name": "Managed Security Services",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_003_rfp_for_managed_security_services_retail",
+          "name": "Budget USD 456,743–572,095",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "technology_holdings",
+          "name": "Technology Holdings",
+          "type": "client"
+        },
+        {
+          "id": "concept_customer_employee_experience",
+          "name": "Customer & Employee Experience",
+          "type": "concept"
+        },
+        {
+          "id": "budget_rfp_013_rfp_for_managed_security_services_technology",
+          "name": "Budget USD 815,397–952,288",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "concept_technology_risk_technical_debt_reduction",
+          "name": "Technology Risk & Technical Debt Reduction",
+          "type": "concept"
+        },
+        {
+          "id": "budget_rfp_023_rfp_for_managed_security_services_retail",
+          "name": "Budget USD 1,186,448–1,840,348",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_033_rfp_for_managed_security_services_technology",
+          "name": "Budget USD 862,472–1,061,486",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_043_rfp_for_managed_security_services_retail",
+          "name": "Budget USD 433,727–587,967",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_053_rfp_for_managed_security_services_technology",
+          "name": "Budget USD 246,823–323,636",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_063_rfp_for_managed_security_services_retail",
+          "name": "Budget USD 1,272,733–1,909,867",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_073_rfp_for_managed_security_services_technology",
+          "name": "Budget USD 1,226,385–1,571,087",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_083_rfp_for_managed_security_services_retail",
+          "name": "Budget USD 1,063,241–1,267,428",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_093_rfp_for_managed_security_services_technology",
+          "name": "Budget USD 364,330–491,506",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10,
+        "concept": 2
+      },
+      "source_docs": [
+        "rfp-003-rfp-for-managed-security-services-retail.docx",
+        "rfp-013-rfp-for-managed-security-services-technology.docx",
+        "rfp-016-rfp-for-erp-implementation-logistics.docx",
+        "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-020-rfp-for-application-support-services-utilities.docx",
+        "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-023-rfp-for-managed-security-services-retail.docx",
+        "rfp-026-rfp-for-erp-implementation-energy.docx",
+        "rfp-028-rfp-for-contact-center-transformation-government.docx",
+        "rfp-033-rfp-for-managed-security-services-technology.docx",
+        "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-043-rfp-for-managed-security-services-retail.docx",
+        "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-053-rfp-for-managed-security-services-technology.docx",
+        "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-063-rfp-for-managed-security-services-retail.docx",
+        "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-066-rfp-for-erp-implementation-energy.docx",
+        "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-073-rfp-for-managed-security-services-technology.docx",
+        "rfp-083-rfp-for-managed-security-services-retail.docx",
+        "rfp-093-rfp-for-managed-security-services-technology.docx",
+        "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx"
+      ],
+      "internal_edges": 16,
+      "summary": "",
+      "summary_file": "graph/communities/community_04.md"
+    },
+    "6": {
+      "id": 6,
+      "entities": [
+        {
+          "id": "scope_reporting_analytics_and_governance",
+          "name": "Reporting, analytics, and governance",
+          "type": "concept"
+        },
+        {
+          "id": "telecommunications_holdings",
+          "name": "Telecommunications Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_customer_experience_platform",
+          "name": "Customer Experience Platform",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_005_rfp_for_customer_experience_platform_telecommunications",
+          "name": "Budget USD 777,606–980,547",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "media_and_entertainment_holdings",
+          "name": "Media and Entertainment Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_015_rfp_for_customer_experience_platform_media_and_entertainment",
+          "name": "Budget USD 824,286–1,172,277",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_025_rfp_for_customer_experience_platform_telecommunications",
+          "name": "Budget USD 1,331,167–1,764,453",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_035_rfp_for_customer_experience_platform_media_and_entertainment",
+          "name": "Budget USD 1,449,756–2,072,371",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_045_rfp_for_customer_experience_platform_telecommunications",
+          "name": "Budget USD 1,358,716–2,047,087",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_055_rfp_for_customer_experience_platform_media_and_entertainment",
+          "name": "Budget USD 899,204–1,270,947",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_065_rfp_for_customer_experience_platform_telecommunications",
+          "name": "Budget USD 806,957–1,241,836",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_075_rfp_for_customer_experience_platform_media_and_entertainment",
+          "name": "Budget USD 369,412–572,073",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_085_rfp_for_customer_experience_platform_telecommunications",
+          "name": "Budget USD 1,383,668–1,672,639",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_095_rfp_for_customer_experience_platform_media_and_entertainment",
+          "name": "Budget USD 386,627–513,691",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "concept": 1,
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10
+      },
+      "source_docs": [
+        "rfp-003-rfp-for-managed-security-services-retail.docx",
+        "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-008-rfp-for-contact-center-transformation-government.docx",
+        "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-013-rfp-for-managed-security-services-technology.docx",
+        "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-020-rfp-for-application-support-services-utilities.docx",
+        "rfp-023-rfp-for-managed-security-services-retail.docx",
+        "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-028-rfp-for-contact-center-transformation-government.docx",
+        "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-030-rfp-for-application-support-services-insurance.docx",
+        "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-033-rfp-for-managed-security-services-technology.docx",
+        "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-040-rfp-for-application-support-services-utilities.docx",
+        "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+        "rfp-043-rfp-for-managed-security-services-retail.docx",
+        "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-046-rfp-for-erp-implementation-energy.docx",
+        "rfp-047-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-048-rfp-for-contact-center-transformation-government.docx",
+        "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-050-rfp-for-application-support-services-insurance.docx",
+        "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-053-rfp-for-managed-security-services-technology.docx",
+        "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-057-rfp-for-procurement-outsourcing-agriculture.docx",
+        "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-060-rfp-for-application-support-services-utilities.docx",
+        "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-068-rfp-for-contact-center-transformation-government.docx",
+        "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-073-rfp-for-managed-security-services-technology.docx",
+        "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+        "rfp-083-rfp-for-managed-security-services-retail.docx",
+        "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+        "rfp-086-rfp-for-erp-implementation-energy.docx",
+        "rfp-088-rfp-for-contact-center-transformation-government.docx",
+        "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+        "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-092-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+        "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-096-rfp-for-erp-implementation-logistics.docx",
+        "rfp-099-rfp-for-digital-workplace-services-real-estate.docx"
+      ],
+      "internal_edges": 13,
+      "summary": "",
+      "summary_file": "graph/communities/community_06.md"
+    },
+    "0": {
+      "id": 0,
+      "entities": [
+        {
+          "id": "government_holdings",
+          "name": "Government Holdings",
+          "type": "client"
+        },
+        {
+          "id": "service_contact_center_transformation",
+          "name": "Contact Center Transformation",
+          "type": "service"
+        },
+        {
+          "id": "budget_rfp_008_rfp_for_contact_center_transformation_government",
+          "name": "Budget USD 620,130–956,609",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "concept_compliance_audit_readiness",
+          "name": "Compliance & Audit Readiness",
+          "type": "concept"
+        },
+        {
+          "id": "aerospace_holdings",
+          "name": "Aerospace Holdings",
+          "type": "client"
+        },
+        {
+          "id": "budget_rfp_018_rfp_for_contact_center_transformation_aerospace",
+          "name": "Budget USD 1,308,418–2,017,705",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_028_rfp_for_contact_center_transformation_government",
+          "name": "Budget USD 506,134–793,617",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_038_rfp_for_contact_center_transformation_aerospace",
+          "name": "Budget USD 440,367–541,138",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_048_rfp_for_contact_center_transformation_government",
+          "name": "Budget USD 1,491,458–1,775,670",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_058_rfp_for_contact_center_transformation_aerospace",
+          "name": "Budget USD 956,514–1,463,772",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_068_rfp_for_contact_center_transformation_government",
+          "name": "Budget USD 1,504,503–1,939,288",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_078_rfp_for_contact_center_transformation_aerospace",
+          "name": "Budget USD 1,261,789–1,489,232",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_088_rfp_for_contact_center_transformation_government",
+          "name": "Budget USD 626,128–747,287",
+          "type": "financial_instrument"
+        },
+        {
+          "id": "budget_rfp_098_rfp_for_contact_center_transformation_aerospace",
+          "name": "Budget USD 1,107,670–1,512,170",
+          "type": "financial_instrument"
+        }
+      ],
+      "entity_types": {
+        "client": 2,
+        "service": 1,
+        "financial_instrument": 10,
+        "concept": 1
+      },
+      "source_docs": [
+        "rfp-008-rfp-for-contact-center-transformation-government.docx",
+        "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-028-rfp-for-contact-center-transformation-government.docx",
+        "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-048-rfp-for-contact-center-transformation-government.docx",
+        "rfp-053-rfp-for-managed-security-services-technology.docx",
+        "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+        "rfp-056-rfp-for-erp-implementation-logistics.docx",
+        "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+        "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+        "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-068-rfp-for-contact-center-transformation-government.docx",
+        "rfp-070-rfp-for-application-support-services-insurance.docx",
+        "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+        "rfp-073-rfp-for-managed-security-services-technology.docx",
+        "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+        "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+        "rfp-080-rfp-for-application-support-services-utilities.docx",
+        "rfp-087-rfp-for-procurement-outsourcing-education.docx",
+        "rfp-088-rfp-for-contact-center-transformation-government.docx",
+        "rfp-098-rfp-for-contact-center-transformation-aerospace.docx"
+      ],
+      "internal_edges": 14,
+      "summary": "",
+      "summary_file": "graph/communities/community_00.md"
+    }
+  },
+  "node_to_community": {
+    "healthcare_holdings": "1",
+    "service_enterprise_software_platform": "1",
+    "concept_process_standardization": "9",
+    "budget_rfp_001_rfp_for_enterprise_software_platform_healthcare": "1",
+    "scope_solution_design_and_architecture": "1",
+    "scope_testing_and_cutover_support": "2",
+    "scope_data_migration_and_validation": "7",
+    "scope_discovery_and_current_state_assessment": "8",
+    "scope_managed_services_and_post_launch_support": "5",
+    "financial_services_holdings": "3",
+    "service_cloud_migration_services": "3",
+    "budget_rfp_002_rfp_for_cloud_migration_services_financial_services": "3",
+    "scope_implementation_and_configuration": "3",
+    "retail_holdings": "4",
+    "service_managed_security_services": "4",
+    "budget_rfp_003_rfp_for_managed_security_services_retail": "4",
+    "scope_reporting_analytics_and_governance": "6",
+    "manufacturing_holdings": "5",
+    "service_data_warehouse_modernization": "5",
+    "concept_time_to_market_acceleration": "9",
+    "budget_rfp_004_rfp_for_data_warehouse_modernization_manufacturing": "5",
+    "scope_training_adoption_and_change_management": "3",
+    "telecommunications_holdings": "6",
+    "service_customer_experience_platform": "6",
+    "concept_data_visibility_for_leadership": "5",
+    "budget_rfp_005_rfp_for_customer_experience_platform_telecommunications": "6",
+    "energy_holdings": "7",
+    "service_erp_implementation": "7",
+    "budget_rfp_006_rfp_for_erp_implementation_energy": "7",
+    "education_holdings": "8",
+    "service_procurement_outsourcing": "8",
+    "concept_operational_efficiency": "8",
+    "budget_rfp_007_rfp_for_procurement_outsourcing_education": "8",
+    "government_holdings": "0",
+    "service_contact_center_transformation": "0",
+    "budget_rfp_008_rfp_for_contact_center_transformation_government": "0",
+    "transportation_holdings": "2",
+    "service_digital_workplace_services": "2",
+    "budget_rfp_009_rfp_for_digital_workplace_services_transportation": "2",
+    "insurance_holdings": "9",
+    "service_application_support_services": "9",
+    "budget_rfp_010_rfp_for_application_support_services_insurance": "9",
+    "hospitality_holdings": "1",
+    "budget_rfp_011_rfp_for_enterprise_software_platform_hospitality": "1",
+    "pharmaceuticals_holdings": "3",
+    "budget_rfp_012_rfp_for_cloud_migration_services_pharmaceuticals": "3",
+    "technology_holdings": "4",
+    "concept_customer_employee_experience": "4",
+    "budget_rfp_013_rfp_for_managed_security_services_technology": "4",
+    "construction_holdings": "5",
+    "budget_rfp_014_rfp_for_data_warehouse_modernization_construction": "5",
+    "media_and_entertainment_holdings": "6",
+    "concept_compliance_audit_readiness": "0",
+    "budget_rfp_015_rfp_for_customer_experience_platform_media_and_entertainment": "6",
+    "logistics_holdings": "7",
+    "concept_technology_risk_technical_debt_reduction": "4",
+    "budget_rfp_016_rfp_for_erp_implementation_logistics": "7",
+    "agriculture_holdings": "8",
+    "budget_rfp_017_rfp_for_procurement_outsourcing_agriculture": "8",
+    "aerospace_holdings": "0",
+    "budget_rfp_018_rfp_for_contact_center_transformation_aerospace": "0",
+    "real_estate_holdings": "2",
+    "budget_rfp_019_rfp_for_digital_workplace_services_real_estate": "2",
+    "utilities_holdings": "9",
+    "budget_rfp_020_rfp_for_application_support_services_utilities": "9",
+    "budget_rfp_021_rfp_for_enterprise_software_platform_healthcare": "1",
+    "budget_rfp_022_rfp_for_cloud_migration_services_financial_services": "3",
+    "budget_rfp_023_rfp_for_managed_security_services_retail": "4",
+    "budget_rfp_024_rfp_for_data_warehouse_modernization_manufacturing": "5",
+    "budget_rfp_025_rfp_for_customer_experience_platform_telecommunications": "6",
+    "budget_rfp_026_rfp_for_erp_implementation_energy": "7",
+    "budget_rfp_027_rfp_for_procurement_outsourcing_education": "8",
+    "budget_rfp_028_rfp_for_contact_center_transformation_government": "0",
+    "concept_total_cost_of_ownership_reduction": "2",
+    "budget_rfp_029_rfp_for_digital_workplace_services_transportation": "2",
+    "budget_rfp_030_rfp_for_application_support_services_insurance": "9",
+    "budget_rfp_031_rfp_for_enterprise_software_platform_hospitality": "1",
+    "budget_rfp_032_rfp_for_cloud_migration_services_pharmaceuticals": "3",
+    "budget_rfp_033_rfp_for_managed_security_services_technology": "4",
+    "budget_rfp_034_rfp_for_data_warehouse_modernization_construction": "5",
+    "budget_rfp_035_rfp_for_customer_experience_platform_media_and_entertainment": "6",
+    "budget_rfp_036_rfp_for_erp_implementation_logistics": "7",
+    "budget_rfp_037_rfp_for_procurement_outsourcing_agriculture": "8",
+    "budget_rfp_038_rfp_for_contact_center_transformation_aerospace": "0",
+    "budget_rfp_039_rfp_for_digital_workplace_services_real_estate": "2",
+    "budget_rfp_040_rfp_for_application_support_services_utilities": "9",
+    "budget_rfp_041_rfp_for_enterprise_software_platform_healthcare": "1",
+    "budget_rfp_042_rfp_for_cloud_migration_services_financial_services": "3",
+    "budget_rfp_043_rfp_for_managed_security_services_retail": "4",
+    "budget_rfp_044_rfp_for_data_warehouse_modernization_manufacturing": "5",
+    "budget_rfp_045_rfp_for_customer_experience_platform_telecommunications": "6",
+    "budget_rfp_046_rfp_for_erp_implementation_energy": "7",
+    "budget_rfp_047_rfp_for_procurement_outsourcing_education": "8",
+    "budget_rfp_048_rfp_for_contact_center_transformation_government": "0",
+    "budget_rfp_049_rfp_for_digital_workplace_services_transportation": "2",
+    "budget_rfp_050_rfp_for_application_support_services_insurance": "9",
+    "budget_rfp_051_rfp_for_enterprise_software_platform_hospitality": "1",
+    "budget_rfp_052_rfp_for_cloud_migration_services_pharmaceuticals": "3",
+    "budget_rfp_053_rfp_for_managed_security_services_technology": "4",
+    "budget_rfp_054_rfp_for_data_warehouse_modernization_construction": "5",
+    "budget_rfp_055_rfp_for_customer_experience_platform_media_and_entertainment": "6",
+    "budget_rfp_056_rfp_for_erp_implementation_logistics": "7",
+    "budget_rfp_057_rfp_for_procurement_outsourcing_agriculture": "8",
+    "budget_rfp_058_rfp_for_contact_center_transformation_aerospace": "0",
+    "budget_rfp_059_rfp_for_digital_workplace_services_real_estate": "2",
+    "budget_rfp_060_rfp_for_application_support_services_utilities": "9",
+    "budget_rfp_061_rfp_for_enterprise_software_platform_healthcare": "1",
+    "budget_rfp_062_rfp_for_cloud_migration_services_financial_services": "3",
+    "budget_rfp_063_rfp_for_managed_security_services_retail": "4",
+    "budget_rfp_064_rfp_for_data_warehouse_modernization_manufacturing": "5",
+    "budget_rfp_065_rfp_for_customer_experience_platform_telecommunications": "6",
+    "budget_rfp_066_rfp_for_erp_implementation_energy": "7",
+    "budget_rfp_067_rfp_for_procurement_outsourcing_education": "8",
+    "budget_rfp_068_rfp_for_contact_center_transformation_government": "0",
+    "budget_rfp_069_rfp_for_digital_workplace_services_transportation": "2",
+    "budget_rfp_070_rfp_for_application_support_services_insurance": "9",
+    "budget_rfp_071_rfp_for_enterprise_software_platform_hospitality": "1",
+    "budget_rfp_072_rfp_for_cloud_migration_services_pharmaceuticals": "3",
+    "budget_rfp_073_rfp_for_managed_security_services_technology": "4",
+    "budget_rfp_074_rfp_for_data_warehouse_modernization_construction": "5",
+    "budget_rfp_075_rfp_for_customer_experience_platform_media_and_entertainment": "6",
+    "budget_rfp_076_rfp_for_erp_implementation_logistics": "7",
+    "budget_rfp_077_rfp_for_procurement_outsourcing_agriculture": "8",
+    "budget_rfp_078_rfp_for_contact_center_transformation_aerospace": "0",
+    "budget_rfp_079_rfp_for_digital_workplace_services_real_estate": "2",
+    "budget_rfp_080_rfp_for_application_support_services_utilities": "9",
+    "budget_rfp_081_rfp_for_enterprise_software_platform_healthcare": "1",
+    "budget_rfp_082_rfp_for_cloud_migration_services_financial_services": "3",
+    "budget_rfp_083_rfp_for_managed_security_services_retail": "4",
+    "budget_rfp_084_rfp_for_data_warehouse_modernization_manufacturing": "5",
+    "budget_rfp_085_rfp_for_customer_experience_platform_telecommunications": "6",
+    "budget_rfp_086_rfp_for_erp_implementation_energy": "7",
+    "budget_rfp_087_rfp_for_procurement_outsourcing_education": "8",
+    "budget_rfp_088_rfp_for_contact_center_transformation_government": "0",
+    "budget_rfp_089_rfp_for_digital_workplace_services_transportation": "2",
+    "budget_rfp_090_rfp_for_application_support_services_insurance": "9",
+    "budget_rfp_091_rfp_for_enterprise_software_platform_hospitality": "1",
+    "budget_rfp_092_rfp_for_cloud_migration_services_pharmaceuticals": "3",
+    "budget_rfp_093_rfp_for_managed_security_services_technology": "4",
+    "budget_rfp_094_rfp_for_data_warehouse_modernization_construction": "5",
+    "budget_rfp_095_rfp_for_customer_experience_platform_media_and_entertainment": "6",
+    "budget_rfp_096_rfp_for_erp_implementation_logistics": "7",
+    "budget_rfp_097_rfp_for_procurement_outsourcing_agriculture": "8",
+    "budget_rfp_098_rfp_for_contact_center_transformation_aerospace": "0",
+    "budget_rfp_099_rfp_for_digital_workplace_services_real_estate": "2",
+    "budget_rfp_100_rfp_for_application_support_services_utilities": "9"
+  }
+}

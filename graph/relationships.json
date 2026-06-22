@@ -1,0 +1,2858 @@
+[
+  {
+    "source": "healthcare_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_001_rfp_for_enterprise_software_platform_healthcare",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Healthcare Holdings."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-001-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_002_rfp_for_cloud_migration_services_financial_services",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Financial Services Holdings."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-002-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_003_rfp_for_managed_security_services_retail",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Retail Holdings."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-003-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_004_rfp_for_data_warehouse_modernization_manufacturing",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Manufacturing Holdings."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-004-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_005_rfp_for_customer_experience_platform_telecommunications",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Telecommunications Holdings."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-005-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_006_rfp_for_erp_implementation_energy",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Energy Holdings."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-006-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "education_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "education_holdings",
+    "target": "concept_operational_efficiency",
+    "relation_type": "requires",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings seeks to improve operational efficiency."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_007_rfp_for_procurement_outsourcing_education",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Education Holdings."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-007-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "government_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "government_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_008_rfp_for_contact_center_transformation_government",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Government Holdings."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-008-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_009_rfp_for_digital_workplace_services_transportation",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Transportation Holdings."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-009-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "concept_operational_efficiency",
+    "relation_type": "requires",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings seeks to improve operational efficiency."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_010_rfp_for_application_support_services_insurance",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Insurance Holdings."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-010-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_011_rfp_for_enterprise_software_platform_hospitality",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Hospitality Holdings."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-011-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "concept_operational_efficiency",
+    "relation_type": "requires",
+    "source_doc": "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings seeks to improve operational efficiency."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_012_rfp_for_cloud_migration_services_pharmaceuticals",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Pharmaceuticals Holdings."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-012-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-013-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-013-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_013_rfp_for_managed_security_services_technology",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-013-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Technology Holdings."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-013-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-013-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_014_rfp_for_data_warehouse_modernization_construction",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Construction Holdings."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-014-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_015_rfp_for_customer_experience_platform_media_and_entertainment",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Media and Entertainment Holdings."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-015-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-016-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-016-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_016_rfp_for_erp_implementation_logistics",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-016-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Logistics Holdings."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-016-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_017_rfp_for_procurement_outsourcing_agriculture",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Agriculture Holdings."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_managed_services_and_post_launch_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Managed services and post-launch support."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-017-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "concept_operational_efficiency",
+    "relation_type": "requires",
+    "source_doc": "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings seeks to improve operational efficiency."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_018_rfp_for_contact_center_transformation_aerospace",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Aerospace Holdings."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-018-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_019_rfp_for_digital_workplace_services_real_estate",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Real Estate Holdings."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-019-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-020-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-020-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_020_rfp_for_application_support_services_utilities",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-020-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Utilities Holdings."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-020-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-020-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_021_rfp_for_enterprise_software_platform_healthcare",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Healthcare Holdings."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "scope_implementation_and_configuration",
+    "relation_type": "requires",
+    "source_doc": "rfp-021-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Enterprise Software Platform engagement includes scope: Implementation and configuration."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_022_rfp_for_cloud_migration_services_financial_services",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-022-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Financial Services Holdings."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-023-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-023-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_023_rfp_for_managed_security_services_retail",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-023-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Retail Holdings."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-023-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Managed Security Services engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_024_rfp_for_data_warehouse_modernization_manufacturing",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-024-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Manufacturing Holdings."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_025_rfp_for_customer_experience_platform_telecommunications",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-025-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Telecommunications Holdings."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-026-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-026-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_026_rfp_for_erp_implementation_energy",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-026-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Energy Holdings."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-026-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "education_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "education_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_027_rfp_for_procurement_outsourcing_education",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Education Holdings."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-027-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Procurement Outsourcing engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "government_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-028-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "government_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-028-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_028_rfp_for_contact_center_transformation_government",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-028-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Government Holdings."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_solution_design_and_architecture",
+    "relation_type": "requires",
+    "source_doc": "rfp-028-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Solution design and architecture."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_029_rfp_for_digital_workplace_services_transportation",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Transportation Holdings."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_data_migration_and_validation",
+    "relation_type": "requires",
+    "source_doc": "rfp-029-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Data migration and validation."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-030-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_030_rfp_for_application_support_services_insurance",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-030-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Insurance Holdings."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_031_rfp_for_enterprise_software_platform_hospitality",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-031-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Hospitality Holdings."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_032_rfp_for_cloud_migration_services_pharmaceuticals",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-032-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Pharmaceuticals Holdings."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-033-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-033-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_033_rfp_for_managed_security_services_technology",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-033-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Technology Holdings."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_034_rfp_for_data_warehouse_modernization_construction",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Construction Holdings."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-034-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Data Warehouse Modernization engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_035_rfp_for_customer_experience_platform_media_and_entertainment",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Media and Entertainment Holdings."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "scope_discovery_and_current_state_assessment",
+    "relation_type": "requires",
+    "source_doc": "rfp-035-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Customer Experience Platform engagement includes scope: Discovery and current-state assessment."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-036-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-036-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_036_rfp_for_erp_implementation_logistics",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-036-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Logistics Holdings."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_037_rfp_for_procurement_outsourcing_agriculture",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-037-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Agriculture Holdings."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_038_rfp_for_contact_center_transformation_aerospace",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Aerospace Holdings."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-038-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Contact Center Transformation engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_039_rfp_for_digital_workplace_services_real_estate",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-039-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Real Estate Holdings."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-040-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-040-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_040_rfp_for_application_support_services_utilities",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-040-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Utilities Holdings."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "scope_testing_and_cutover_support",
+    "relation_type": "requires",
+    "source_doc": "rfp-040-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Application Support Services engagement includes scope: Testing and cutover support."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_041_rfp_for_enterprise_software_platform_healthcare",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-041-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Healthcare Holdings."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_042_rfp_for_cloud_migration_services_financial_services",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-042-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Financial Services Holdings."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-043-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-043-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_043_rfp_for_managed_security_services_retail",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-043-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Retail Holdings."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_044_rfp_for_data_warehouse_modernization_manufacturing",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-044-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Manufacturing Holdings."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_045_rfp_for_customer_experience_platform_telecommunications",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-045-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Telecommunications Holdings."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-046-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-046-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_046_rfp_for_erp_implementation_energy",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-046-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Energy Holdings."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-046-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "ERP Implementation engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "education_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-047-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_047_rfp_for_procurement_outsourcing_education",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-047-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Education Holdings."
+  },
+  {
+    "source": "government_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-048-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "government_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-048-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_048_rfp_for_contact_center_transformation_government",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-048-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Government Holdings."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_049_rfp_for_digital_workplace_services_transportation",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Transportation Holdings."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "scope_training_adoption_and_change_management",
+    "relation_type": "requires",
+    "source_doc": "rfp-049-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Digital Workplace Services engagement includes scope: Training, adoption, and change management."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-050-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-050-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_050_rfp_for_application_support_services_insurance",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-050-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Insurance Holdings."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "concept_operational_efficiency",
+    "relation_type": "requires",
+    "source_doc": "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings seeks to improve operational efficiency."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_051_rfp_for_enterprise_software_platform_hospitality",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-051-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Hospitality Holdings."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_052_rfp_for_cloud_migration_services_pharmaceuticals",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Pharmaceuticals Holdings."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "scope_reporting_analytics_and_governance",
+    "relation_type": "requires",
+    "source_doc": "rfp-052-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Cloud Migration Services engagement includes scope: Reporting, analytics, and governance."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-053-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-053-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_053_rfp_for_managed_security_services_technology",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-053-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Technology Holdings."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_054_rfp_for_data_warehouse_modernization_construction",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-054-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Construction Holdings."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_055_rfp_for_customer_experience_platform_media_and_entertainment",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-055-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Media and Entertainment Holdings."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-056-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-056-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_056_rfp_for_erp_implementation_logistics",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-056-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Logistics Holdings."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-057-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "concept_operational_efficiency",
+    "relation_type": "requires",
+    "source_doc": "rfp-057-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings seeks to improve operational efficiency."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_057_rfp_for_procurement_outsourcing_agriculture",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-057-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Agriculture Holdings."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_058_rfp_for_contact_center_transformation_aerospace",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-058-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Aerospace Holdings."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_059_rfp_for_digital_workplace_services_real_estate",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-059-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Real Estate Holdings."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-060-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-060-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_060_rfp_for_application_support_services_utilities",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-060-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Utilities Holdings."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_061_rfp_for_enterprise_software_platform_healthcare",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-061-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Healthcare Holdings."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_062_rfp_for_cloud_migration_services_financial_services",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-062-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Financial Services Holdings."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-063-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_063_rfp_for_managed_security_services_retail",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-063-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Retail Holdings."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_064_rfp_for_data_warehouse_modernization_manufacturing",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-064-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Manufacturing Holdings."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_065_rfp_for_customer_experience_platform_telecommunications",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-065-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Telecommunications Holdings."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-066-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_066_rfp_for_erp_implementation_energy",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-066-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Energy Holdings."
+  },
+  {
+    "source": "education_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "education_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_067_rfp_for_procurement_outsourcing_education",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-067-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Education Holdings."
+  },
+  {
+    "source": "government_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-068-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_068_rfp_for_contact_center_transformation_government",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-068-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Government Holdings."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_069_rfp_for_digital_workplace_services_transportation",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-069-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Transportation Holdings."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-070-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-070-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_070_rfp_for_application_support_services_insurance",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-070-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Insurance Holdings."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_071_rfp_for_enterprise_software_platform_hospitality",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-071-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Hospitality Holdings."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "concept_customer_employee_experience",
+    "relation_type": "requires",
+    "source_doc": "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings seeks to enhance customer and employee experience."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_072_rfp_for_cloud_migration_services_pharmaceuticals",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-072-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Pharmaceuticals Holdings."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-073-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_073_rfp_for_managed_security_services_technology",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-073-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Technology Holdings."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_074_rfp_for_data_warehouse_modernization_construction",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-074-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Construction Holdings."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_075_rfp_for_customer_experience_platform_media_and_entertainment",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-075-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Media and Entertainment Holdings."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-076-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-076-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_076_rfp_for_erp_implementation_logistics",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-076-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Logistics Holdings."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_077_rfp_for_procurement_outsourcing_agriculture",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-077-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Agriculture Holdings."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_078_rfp_for_contact_center_transformation_aerospace",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-078-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Aerospace Holdings."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_079_rfp_for_digital_workplace_services_real_estate",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-079-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Real Estate Holdings."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-080-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "concept_compliance_audit_readiness",
+    "relation_type": "requires",
+    "source_doc": "rfp-080-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings seeks to strengthen compliance and audit readiness."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_080_rfp_for_application_support_services_utilities",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-080-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Utilities Holdings."
+  },
+  {
+    "source": "healthcare_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-081-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Healthcare Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_081_rfp_for_enterprise_software_platform_healthcare",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-081-rfp-for-enterprise-software-platform-healthcare.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Healthcare Holdings."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "financial_services_holdings",
+    "target": "concept_operational_efficiency",
+    "relation_type": "requires",
+    "source_doc": "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Financial Services Holdings seeks to improve operational efficiency."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_082_rfp_for_cloud_migration_services_financial_services",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-082-rfp-for-cloud-migration-services-financial-services.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Financial Services Holdings."
+  },
+  {
+    "source": "retail_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-083-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Retail Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_083_rfp_for_managed_security_services_retail",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-083-rfp-for-managed-security-services-retail.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Retail Holdings."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "manufacturing_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Manufacturing Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_084_rfp_for_data_warehouse_modernization_manufacturing",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-084-rfp-for-data-warehouse-modernization-manufacturing.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Manufacturing Holdings."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "telecommunications_holdings",
+    "target": "concept_process_standardization",
+    "relation_type": "requires",
+    "source_doc": "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Telecommunications Holdings seeks to standardize processes across business units."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_085_rfp_for_customer_experience_platform_telecommunications",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-085-rfp-for-customer-experience-platform-telecommunications.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Telecommunications Holdings."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-086-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "energy_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-086-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Energy Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_086_rfp_for_erp_implementation_energy",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-086-rfp-for-erp-implementation-energy.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Energy Holdings."
+  },
+  {
+    "source": "education_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-087-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Education Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_087_rfp_for_procurement_outsourcing_education",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-087-rfp-for-procurement-outsourcing-education.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Education Holdings."
+  },
+  {
+    "source": "government_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-088-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Government Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_088_rfp_for_contact_center_transformation_government",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-088-rfp-for-contact-center-transformation-government.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Government Holdings."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "transportation_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Transportation Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_089_rfp_for_digital_workplace_services_transportation",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-089-rfp-for-digital-workplace-services-transportation.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Transportation Holdings."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-090-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "insurance_holdings",
+    "target": "concept_time_to_market_acceleration",
+    "relation_type": "requires",
+    "source_doc": "rfp-090-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Insurance Holdings seeks to accelerate time-to-market for new services."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_090_rfp_for_application_support_services_insurance",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-090-rfp-for-application-support-services-insurance.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Insurance Holdings."
+  },
+  {
+    "source": "hospitality_holdings",
+    "target": "service_enterprise_software_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Hospitality Holdings issued an RFP seeking Enterprise Software Platform."
+  },
+  {
+    "source": "service_enterprise_software_platform",
+    "target": "budget_rfp_091_rfp_for_enterprise_software_platform_hospitality",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-091-rfp-for-enterprise-software-platform-hospitality.docx",
+    "page": 1,
+    "description": "Indicative budget for Enterprise Software Platform at Hospitality Holdings."
+  },
+  {
+    "source": "pharmaceuticals_holdings",
+    "target": "service_cloud_migration_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-092-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Pharmaceuticals Holdings issued an RFP seeking Cloud Migration Services."
+  },
+  {
+    "source": "service_cloud_migration_services",
+    "target": "budget_rfp_092_rfp_for_cloud_migration_services_pharmaceuticals",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-092-rfp-for-cloud-migration-services-pharmaceuticals.docx",
+    "page": 1,
+    "description": "Indicative budget for Cloud Migration Services at Pharmaceuticals Holdings."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "service_managed_security_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-093-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings issued an RFP seeking Managed Security Services."
+  },
+  {
+    "source": "technology_holdings",
+    "target": "concept_total_cost_of_ownership_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-093-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Technology Holdings seeks to reduce total cost of ownership."
+  },
+  {
+    "source": "service_managed_security_services",
+    "target": "budget_rfp_093_rfp_for_managed_security_services_technology",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-093-rfp-for-managed-security-services-technology.docx",
+    "page": 1,
+    "description": "Indicative budget for Managed Security Services at Technology Holdings."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "service_data_warehouse_modernization",
+    "relation_type": "requires",
+    "source_doc": "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings issued an RFP seeking Data Warehouse Modernization."
+  },
+  {
+    "source": "construction_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Construction Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_data_warehouse_modernization",
+    "target": "budget_rfp_094_rfp_for_data_warehouse_modernization_construction",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-094-rfp-for-data-warehouse-modernization-construction.docx",
+    "page": 1,
+    "description": "Indicative budget for Data Warehouse Modernization at Construction Holdings."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "service_customer_experience_platform",
+    "relation_type": "requires",
+    "source_doc": "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings issued an RFP seeking Customer Experience Platform."
+  },
+  {
+    "source": "media_and_entertainment_holdings",
+    "target": "concept_technology_risk_technical_debt_reduction",
+    "relation_type": "requires",
+    "source_doc": "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Media and Entertainment Holdings seeks to reduce technology risk and technical debt."
+  },
+  {
+    "source": "service_customer_experience_platform",
+    "target": "budget_rfp_095_rfp_for_customer_experience_platform_media_and_entertainment",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-095-rfp-for-customer-experience-platform-media-and-entertainment.docx",
+    "page": 1,
+    "description": "Indicative budget for Customer Experience Platform at Media and Entertainment Holdings."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "service_erp_implementation",
+    "relation_type": "requires",
+    "source_doc": "rfp-096-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings issued an RFP seeking ERP Implementation."
+  },
+  {
+    "source": "logistics_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-096-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Logistics Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_erp_implementation",
+    "target": "budget_rfp_096_rfp_for_erp_implementation_logistics",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-096-rfp-for-erp-implementation-logistics.docx",
+    "page": 1,
+    "description": "Indicative budget for ERP Implementation at Logistics Holdings."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "service_procurement_outsourcing",
+    "relation_type": "requires",
+    "source_doc": "rfp-097-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings issued an RFP seeking Procurement Outsourcing."
+  },
+  {
+    "source": "agriculture_holdings",
+    "target": "concept_data_visibility_for_leadership",
+    "relation_type": "requires",
+    "source_doc": "rfp-097-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Agriculture Holdings seeks to increase data visibility for leadership."
+  },
+  {
+    "source": "service_procurement_outsourcing",
+    "target": "budget_rfp_097_rfp_for_procurement_outsourcing_agriculture",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-097-rfp-for-procurement-outsourcing-agriculture.docx",
+    "page": 1,
+    "description": "Indicative budget for Procurement Outsourcing at Agriculture Holdings."
+  },
+  {
+    "source": "aerospace_holdings",
+    "target": "service_contact_center_transformation",
+    "relation_type": "requires",
+    "source_doc": "rfp-098-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Aerospace Holdings issued an RFP seeking Contact Center Transformation."
+  },
+  {
+    "source": "service_contact_center_transformation",
+    "target": "budget_rfp_098_rfp_for_contact_center_transformation_aerospace",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-098-rfp-for-contact-center-transformation-aerospace.docx",
+    "page": 1,
+    "description": "Indicative budget for Contact Center Transformation at Aerospace Holdings."
+  },
+  {
+    "source": "real_estate_holdings",
+    "target": "service_digital_workplace_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-099-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Real Estate Holdings issued an RFP seeking Digital Workplace Services."
+  },
+  {
+    "source": "service_digital_workplace_services",
+    "target": "budget_rfp_099_rfp_for_digital_workplace_services_real_estate",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-099-rfp-for-digital-workplace-services-real-estate.docx",
+    "page": 1,
+    "description": "Indicative budget for Digital Workplace Services at Real Estate Holdings."
+  },
+  {
+    "source": "utilities_holdings",
+    "target": "service_application_support_services",
+    "relation_type": "requires",
+    "source_doc": "rfp-100-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Utilities Holdings issued an RFP seeking Application Support Services."
+  },
+  {
+    "source": "service_application_support_services",
+    "target": "budget_rfp_100_rfp_for_application_support_services_utilities",
+    "relation_type": "has_budget",
+    "source_doc": "rfp-100-rfp-for-application-support-services-utilities.docx",
+    "page": 1,
+    "description": "Indicative budget for Application Support Services at Utilities Holdings."
+  }
+]
