@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f9fa; color: #1a1a2e; padding: 20px; }
+  h1 { font-size: 17px; font-weight: 700; margin-bottom: 4px; color: #1a1a2e; }
+  .subtitle { font-size: 12px; color: #666; margin-bottom: 20px; }
+
+  .tabs { display: flex; gap: 6px; margin-bottom: 20px; flex-wrap: wrap; }
+  .tab { padding: 8px 16px; border-radius: 20px; border: 2px solid #ddd; background: white; cursor: pointer; font-size: 13px; font-weight: 600; color: #555; transition: all 0.2s; }
+  .tab.active { border-color: #4361ee; background: #4361ee; color: white; }
+
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  .overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+  .card { background: white; border-radius: 12px; padding: 16px; border-left: 4px solid #ddd; }
+  .card.local { border-left-color: #f72585; }
+  .card.global { border-left-color: #4361ee; }
+  .card.shared { border-left-color: #7bed9f; }
+  .card h3 { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .card p { font-size: 12px; color: #555; line-height: 1.5; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 700; margin-bottom: 8px; }
+  .badge.local { background: #ffe0ef; color: #c9184a; }
+  .badge.global { background: #dde3ff; color: #3730a3; }
+  .badge.hybrid { background: #d1fae5; color: #065f46; }
+
+  .flow { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .flow h3 { font-size: 14px; font-weight: 700; margin-bottom: 14px; }
+  .flow-steps { display: flex; align-items: flex-start; gap: 0; overflow-x: auto; padding-bottom: 6px; }
+  .step { display: flex; flex-direction: column; align-items: center; min-width: 110px; }
+  .step-box { background: #f0f4ff; border-radius: 10px; padding: 10px 8px; text-align: center; font-size: 11px; font-weight: 600; color: #1a1a2e; line-height: 1.4; width: 100px; border: 2px solid #dde3ff; }
+  .step-box.highlight { background: #4361ee; color: white; border-color: #4361ee; }
+  .step-box.pink { background: #fff0f5; border-color: #f72585; color: #c9184a; }
+  .step-box.green { background: #f0fdf4; border-color: #22c55e; color: #15803d; }
+  .step-box.orange { background: #fff7ed; border-color: #f97316; color: #c2410c; }
+  .arrow { font-size: 18px; color: #999; margin: 0 4px; align-self: center; padding-top: 0; flex-shrink: 0; }
+  .step-label { font-size: 10px; color: #888; margin-top: 6px; text-align: center; max-width: 100px; line-height: 1.3; }
+
+  .example { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+  .example-q { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: #1a1a2e; }
+  .example-q span { background: #f3f4f6; padding: 4px 10px; border-radius: 8px; font-style: italic; }
+  .steps-list { display: flex; flex-direction: column; gap: 6px; }
+  .step-item { display: flex; align-items: flex-start; gap: 10px; }
+  .step-num { min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: white; flex-shrink: 0; }
+  .step-num.local { background: #f72585; }
+  .step-num.global { background: #4361ee; }
+  .step-num.hybrid { background: #059669; }
+  .step-text { font-size: 12px; color: #444; line-height: 1.5; }
+  .step-text strong { color: #1a1a2e; }
+  .result-box { background: #f8faff; border: 1px solid #dde3ff; border-radius: 8px; padding: 10px 12px; margin-top: 10px; font-size: 12px; color: #374151; line-height: 1.5; }
+  .result-box strong { color: #4361ee; }
+
+  .node-diagram { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .node-diagram h3 { font-size: 14px; font-weight: 700; margin-bottom: 14px; }
+  svg { width: 100%; overflow: visible; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; background: white; border-radius: 12px; overflow: hidden; }
+  th { background: #4361ee; color: white; padding: 10px 12px; text-align: left; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #fafafa; }
+  .tag { display: inline-block; padding: 2px 7px; border-radius: 8px; font-size: 10px; font-weight: 700; }
+  .tag.local { background: #ffe0ef; color: #c9184a; }
+  .tag.global { background: #dde3ff; color: #3730a3; }
+  .tag.hybrid { background: #d1fae5; color: #065f46; }
+</style>
+</head>
+<body>
+<h1>How the DocSync Knowledge Graph Answers Questions</h1>
+<p class="subtitle">A plain-English walkthrough for clients — using the 100 procurement RFPs in this folder</p>
+
+<div class="tabs">
+  <div class="tab active" onclick="show('overview')">Start Here</div>
+  <div class="tab" onclick="show('rag')">vs Traditional RAG</div>
+  <div class="tab" onclick="show('local')">Simple Lookup</div>
+  <div class="tab" onclick="show('global')">Across Documents</div>
+  <div class="tab" onclick="show('hybrid')">Connected Questions</div>
+  <div class="tab" onclick="show('compare')">Side by Side</div>
+</div>
+
+<!-- OVERVIEW -->
+<div class="panel active" id="panel-overview">
+  <div class="flow" style="margin-bottom:16px;">
+    <h3>What's in this folder</h3>
+    <p style="font-size:12px; color:#555; line-height:1.6;">100 procurement RFPs were ingested, covering <strong>20 industry sectors</strong> (Healthcare, Financial Services, Energy, Retail, Aerospace…) and <strong>10 service lines</strong> (Enterprise Software Platform, Cloud Migration, ERP Implementation, Managed Security, Data Warehouse Modernization…). Instead of storing them as plain text, DocSync read every page and built a <strong>knowledge graph</strong> — a map of the buyers, the services they want, their indicative budgets, and their strategic drivers, plus how all of those connect. The tabs below show three kinds of question you can ask it, and the <strong>"vs Traditional RAG"</strong> tab shows why a graph answers questions that ordinary search cannot.</p>
+  </div>
+  <div class="overview-grid">
+    <div class="card local">
+      <span class="badge local">SIMPLE LOOKUP</span>
+      <h3>One specific fact</h3>
+      <p>Finds one entity, then follows its direct links (1–2 hops). Best when you know <em>which RFP or service</em> you're asking about.</p>
+      <p style="margin-top:8px; font-style:italic; color:#999;">"What's the budget for the ERP project at Energy Holdings?"</p>
+    </div>
+    <div class="card global">
+      <span class="badge global">ACROSS DOCUMENTS</span>
+      <h3>Patterns across the corpus</h3>
+      <p>Reads cluster summaries first, then pulls supporting chunks. Best for "which RFPs…", "compare across…", or trend questions.</p>
+      <p style="margin-top:8px; font-style:italic; color:#999;">"Compare strategic drivers across the cloud and ERP RFPs"</p>
+    </div>
+    <div class="card shared">
+      <span class="badge hybrid">CONNECTED</span>
+      <h3>Specific + thematic</h3>
+      <p>Combines both paths — finds specific entities (e.g. budgets) and also groups them thematically. Used when a question is both a filter and a pattern.</p>
+      <p style="margin-top:8px; font-style:italic; color:#999;">"Which RFPs have budgets over USD 2M, and what are they for?"</p>
+    </div>
+    <div class="card" style="border-left-color:#f97316;">
+      <span class="badge" style="background:#fff0e0;color:#c2410c;">KNOWLEDGE GRAPH</span>
+      <h3>What's stored</h3>
+      <p>146 entities · 357 relationships · 10 communities across 100 RFP documents — all queryable without re-reading the source files each time.</p>
+    </div>
+  </div>
+
+  <div class="node-diagram">
+    <h3>The 3-Layer Architecture Your Queries Run Through</h3>
+    <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="130" width="130" height="50" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="1.5"/>
+      <text x="75" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#c2410c">Source Chunks</text>
+      <text x="75" y="164" text-anchor="middle" font-size="10" fill="#92400e">100 RFP documents</text>
+      <text x="75" y="177" text-anchor="middle" font-size="9" fill="#b45309">DOCX / PDF text</text>
+
+      <rect x="180" y="100" width="150" height="50" rx="8" fill="#f0f4ff" stroke="#4361ee" stroke-width="1.5"/>
+      <text x="255" y="120" text-anchor="middle" font-size="11" font-weight="700" fill="#3730a3">Entity Graph</text>
+      <text x="255" y="134" text-anchor="middle" font-size="10" fill="#4338ca">146 nodes · 357 edges</text>
+      <text x="255" y="147" text-anchor="middle" font-size="9" fill="#6366f1">clients, services, budgets…</text>
+
+      <rect x="380" y="60" width="150" height="50" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="455" y="80" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">Communities</text>
+      <text x="455" y="94" text-anchor="middle" font-size="10" fill="#166534">10 clusters · Louvain</text>
+      <text x="455" y="107" text-anchor="middle" font-size="9" fill="#16a34a">plain-English summaries</text>
+
+      <rect x="560" y="20" width="130" height="40" rx="8" fill="#4361ee"/>
+      <text x="625" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="white">Your Question</text>
+      <text x="625" y="52" text-anchor="middle" font-size="10" fill="#c7d2fe">plain English</text>
+
+      <line x1="540" y1="40" x2="530" y2="85" stroke="#4361ee" stroke-width="1.5" marker-end="url(#arr)"/>
+      <line x1="380" y1="85" x2="335" y2="120" stroke="#4361ee" stroke-width="1.5" marker-end="url(#arr)"/>
+      <line x1="180" y1="140" x2="145" y2="152" stroke="#f97316" stroke-width="1.5" marker-end="url(#arr2)"/>
+
+      <text x="500" y="72" font-size="10" fill="#4361ee" font-style="italic">across-docs path</text>
+      <text x="196" y="140" font-size="10" fill="#4361ee" font-style="italic">lookup path</text>
+      <text x="80" y="128" font-size="10" fill="#f97316" font-style="italic">citation</text>
+
+      <defs>
+        <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L6,3 z" fill="#4361ee"/>
+        </marker>
+        <marker id="arr2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L6,3 z" fill="#f97316"/>
+        </marker>
+      </defs>
+    </svg>
+  </div>
+</div>
+
+<!-- VS TRADITIONAL RAG -->
+<div class="panel" id="panel-rag">
+  <div class="flow">
+    <h3>Two ways to answer a question from documents</h3>
+    <p style="font-size:12px; color:#555; line-height:1.6;">Most AI document tools use <strong>traditional RAG</strong>: they chop documents into chunks, and when you ask a question they fetch the chunks whose wording looks most similar to your question. That works well when the answer sits in one passage. It struggles when the answer has to be <em>counted, filtered, or assembled</em> across many documents. A <strong>knowledge graph</strong> stores the facts and their connections, so it can filter and follow them.</p>
+  </div>
+
+  <div class="overview-grid">
+    <div class="card" style="border-left-color:#94a3b8;">
+      <span class="badge" style="background:#eef2f7;color:#475569;">TRADITIONAL RAG</span>
+      <h3>Finds similar text</h3>
+      <p>Turns every chunk into a vector of numbers and returns the chunks that look most like your question. It never "knows" that an RFP <em>requires</em> a service or <em>has a budget</em> — it only sees words that look alike.</p>
+      <p style="margin-top:8px; color:#64748b;"><strong>Good at:</strong> "Summarise the scope of one RFP." <br/><strong>Weak at:</strong> "How many RFPs…", "Which RFPs…", or anything spanning all 100 files.</p>
+    </div>
+    <div class="card global">
+      <span class="badge global">GRAPHRAG (this system)</span>
+      <h3>Follows relationships</h3>
+      <p>Stores each buyer, service, budget and strategic driver as <em>linked</em> facts. To answer, it filters and walks those links — so "every budget above USD 2M" is a query, not a guess.</p>
+      <p style="margin-top:8px; color:#475569;"><strong>Good at:</strong> counting, filtering, comparing and connecting across the whole corpus, with exact page citations.</p>
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Simple question both can handle: <span>"What's the budget for the ERP project at Energy Holdings?"</span></div>
+    <div class="steps-list">
+      <div class="step-item">
+        <div class="step-num" style="background:#94a3b8;">R</div>
+        <div class="step-text"><strong>Traditional RAG:</strong> searches for chunks similar to "ERP budget Energy" → finds the budget line in RFP-006 → returns it. Works, <em>because the answer lives in one passage.</em></div>
+      </div>
+      <div class="step-item">
+        <div class="step-num local">G</div>
+        <div class="step-text"><strong>GraphRAG:</strong> finds Energy Holdings, follows <code>requires</code> to the ERP Implementation service, then <code>has_budget</code> to the figure — <strong>USD 1,775,134–2,817,111</strong>, citing RFP-006 page 1.</div>
+      </div>
+    </div>
+    <div class="result-box"><strong>Verdict:</strong> A tie for single-fact questions. The difference shows up below.</div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Counting question that trips up traditional RAG: <span>"Which RFPs have an indicative budget over USD 2M?"</span></div>
+    <div class="steps-list">
+      <div class="step-item">
+        <div class="step-num" style="background:#94a3b8;">R</div>
+        <div class="step-text"><strong>Traditional RAG:</strong> can only return a handful of chunks that mention large numbers. It cannot reliably scan all 100 budgets or compare them numerically — so it under-counts and misses RFPs whose budget wording doesn't resemble the question.</div>
+      </div>
+      <div class="step-item">
+        <div class="step-num local">G</div>
+        <div class="step-text"><strong>GraphRAG:</strong> every budget is a node with a numeric <code>max</code>. It filters them in one pass — <strong>23 RFPs</strong> can exceed USD 2M, of which <strong>3</strong> sit entirely above it (RFP-051, RFP-050, RFP-031).</div>
+      </div>
+    </div>
+    <div class="result-box">
+      <strong>Why it matters:</strong> "How many" and "which ones" are <em>filter-and-count</em> questions. A graph answers them exactly; similarity search can only approximate from whatever chunks it happened to retrieve.
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Cross-document comparison: <span>"Compare strategic drivers across the cloud and ERP RFPs"</span></div>
+    <div class="steps-list">
+      <div class="step-item">
+        <div class="step-num" style="background:#94a3b8;">R</div>
+        <div class="step-text"><strong>Traditional RAG:</strong> retrieves a few "objectives" chunks. If most top hits come from cloud RFPs, the ERP side is under-represented and the comparison is lopsided — it never sees the full set.</div>
+      </div>
+      <div class="step-item">
+        <div class="step-num local">G</div>
+        <div class="step-text"><strong>GraphRAG:</strong> each driver is a shared concept node linking back to every RFP that names it. The pattern falls out cleanly — cloud RFPs cluster on growth/agility, ERP RFPs on risk/cost/control.</div>
+      </div>
+    </div>
+    <div class="result-box">
+      <strong>Cloud drivers:</strong> operational efficiency · faster time-to-market · customer &amp; employee experience<br/>
+      <strong>ERP drivers:</strong> reduce technology risk &amp; technical debt · lower total cost of ownership · compliance &amp; audit readiness<br/>
+      <strong>Shared by both:</strong> process standardization · data visibility for leadership
+    </div>
+  </div>
+
+  <table style="margin-top:16px;">
+    <tr>
+      <th>&nbsp;</th>
+      <th><span class="tag" style="background:#eef2f7;color:#475569;">TRADITIONAL RAG</span></th>
+      <th><span class="tag global">GRAPHRAG</span></th>
+    </tr>
+    <tr><td><strong>How it stores docs</strong></td><td>Text chunks as numeric vectors</td><td>Entities + the relationships between them</td></tr>
+    <tr><td><strong>How it finds answers</strong></td><td>Returns chunks with similar wording</td><td>Looks up an entity, then filters / follows its links</td></tr>
+    <tr><td><strong>"How many / which" questions</strong></td><td>Weak — can't count or filter reliably</td><td>Strong — designed for it</td></tr>
+    <tr><td><strong>Compare across 100 docs</strong></td><td>Hit-or-miss — depends on the top chunks</td><td>Reads corpus-level community summaries</td></tr>
+    <tr><td><strong>Citations</strong></td><td>The chunk it returned</td><td>Exact document, page and section</td></tr>
+    <tr><td><strong>External services needed</strong></td><td>An embedding model + a vector database</td><td>None — runs locally on this folder</td></tr>
+  </table>
+</div>
+
+<!-- SIMPLE LOOKUP / LOCAL -->
+<div class="panel" id="panel-local">
+  <div class="flow">
+    <h3>Simple Lookup — Finding One Fact (a.k.a. Local Search)</h3>
+    <div class="flow-steps">
+      <div class="step"><div class="step-box pink">User Question</div><div class="step-label">keyword extraction</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box pink">Match Entity in Graph</div><div class="step-label">entities.json keyword match</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box pink">Hop 1: Direct Edges</div><div class="step-label">relationships.json traversal</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box pink">Hop 2 (optional)</div><div class="step-label">neighbours of neighbours</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box green">Fetch Source Chunks</div><div class="step-label">supporting text for citation</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box highlight">Claude Synthesises</div><div class="step-label">cited answer with page refs</div></div>
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Example A: <span>"What's the budget for the ERP project at Energy Holdings?"</span></div>
+    <div class="steps-list">
+      <div class="step-item"><div class="step-num local">1</div>
+        <div class="step-text"><strong>Keyword match:</strong> "Energy" + "ERP" hit <code>energy_holdings</code> (client) and <code>service_erp_implementation</code> (service) in entities.json</div></div>
+      <div class="step-item"><div class="step-num local">2</div>
+        <div class="step-text"><strong>Hop 1:</strong> walk <code>energy_holdings</code> →[<code>requires</code>]→ <code>service_erp_implementation</code>, then the service →[<code>has_budget</code>]→ the RFP-006 budget node</div></div>
+      <div class="step-item"><div class="step-num local">3</div>
+        <div class="step-text"><strong>Fetch chunk:</strong> pulls the budget line from Page 1 of RFP-006 for citation</div></div>
+      <div class="step-item"><div class="step-num local">4</div>
+        <div class="step-text"><strong>Claude answers:</strong> "USD 1,775,134–2,817,111 indicative", cites the document and page</div></div>
+    </div>
+    <div class="result-box">
+      <strong>Graph path walked:</strong><br/>
+      energy_holdings →[requires]→ service_erp_implementation →[has_budget]→ budget_rfp_006 (USD 1.78M–2.82M)
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Example B: <span>"What scope of work does the Cloud Migration RFP for Financial Services cover?"</span></div>
+    <div class="steps-list">
+      <div class="step-item"><div class="step-num local">1</div>
+        <div class="step-text"><strong>Keyword match:</strong> "Cloud Migration" + "Financial Services" → <code>service_cloud_migration_services</code> and <code>financial_services_holdings</code></div></div>
+      <div class="step-item"><div class="step-num local">2</div>
+        <div class="step-text"><strong>Hop 1:</strong> edges with relation_type = <code>requires</code> from the service → its scope concepts (RFP-002)</div></div>
+      <div class="step-item"><div class="step-num local">3</div>
+        <div class="step-text"><strong>Answer:</strong> lists the five scope areas without re-reading the whole document</div></div>
+    </div>
+    <div class="result-box">
+      <strong>Scope nodes reached:</strong> Solution design &amp; architecture · Discovery &amp; current-state assessment · Data migration &amp; validation · Implementation &amp; configuration · Testing &amp; cutover support
+    </div>
+  </div>
+</div>
+
+<!-- ACROSS DOCUMENTS / GLOBAL -->
+<div class="panel" id="panel-global">
+  <div class="flow">
+    <h3>Across Documents — Reading Summaries First (a.k.a. Global Search)</h3>
+    <div class="flow-steps">
+      <div class="step"><div class="step-box highlight">User Question</div><div class="step-label">intent = cross-corpus</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box" style="background:#dde3ff;border-color:#4361ee;color:#3730a3;">Load Community Summaries</div><div class="step-label">10 clusters</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box" style="background:#dde3ff;border-color:#4361ee;color:#3730a3;">Score Communities</div><div class="step-label">keyword relevance rank</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box" style="background:#dde3ff;border-color:#4361ee;color:#3730a3;">Pull Entities from Top Clusters</div><div class="step-label">drivers, services, budgets</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box green">Fetch Source Chunks</div><div class="step-label">grounding text</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box highlight">Claude Synthesises</div><div class="step-label">cross-RFP comparison</div></div>
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Example A: <span>"Compare strategic drivers across the cloud and ERP RFPs"</span></div>
+    <div class="steps-list">
+      <div class="step-item"><div class="step-num global">1</div>
+        <div class="step-text"><strong>Driver nodes are shared:</strong> each strategic driver (e.g. <code>concept_process_standardization</code>) links back to every RFP that names it, so Claude can group cloud vs ERP without opening 20 files</div></div>
+      <div class="step-item"><div class="step-num global">2</div>
+        <div class="step-text"><strong>Traverse by service line:</strong> follow the 10 cloud RFPs and 10 ERP RFPs to the drivers they each point to</div></div>
+      <div class="step-item"><div class="step-num global">3</div>
+        <div class="step-text"><strong>Claude synthesises:</strong> the two service lines emphasise different drivers — a clean comparison for the client</div></div>
+    </div>
+    <div class="result-box">
+      <strong>Cloud RFPs lead with:</strong> operational efficiency · faster time-to-market · customer &amp; employee experience<br/>
+      <strong>ERP RFPs lead with:</strong> reduce technology risk &amp; technical debt · lower total cost of ownership · compliance &amp; audit readiness<br/>
+      <strong>Common ground:</strong> process standardization and data visibility appear in both
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Example B: <span>"Which RFPs are driven by process standardization?"</span></div>
+    <div class="steps-list">
+      <div class="step-item"><div class="step-num global">1</div>
+        <div class="step-text"><strong>One driver node, many links:</strong> <code>concept_process_standardization</code> carries a list of every RFP that names it as an objective</div></div>
+      <div class="step-item"><div class="step-num global">2</div>
+        <div class="step-text"><strong>Read its links:</strong> returns the RFPs directly — no document re-reading needed</div></div>
+    </div>
+    <div class="result-box">
+      <strong>Result:</strong> process standardization is named in <strong>19 of the 100 RFPs</strong>, spanning sectors from Healthcare and Energy to Insurance and Telecommunications — making it one of the most common drivers across the corpus.
+    </div>
+  </div>
+</div>
+
+<!-- CONNECTED / HYBRID -->
+<div class="panel" id="panel-hybrid">
+  <div class="flow">
+    <h3>Connected Questions — Combining Both Approaches (a.k.a. Hybrid Search)</h3>
+    <div class="flow-steps">
+      <div class="step"><div class="step-box highlight">User Question</div><div class="step-label">filter + pattern</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box pink">Lookup Path: Filter Entities</div><div class="step-label">e.g. budgets &gt; 2M</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box" style="background:#dde3ff;border-color:#4361ee;color:#3730a3;">Across-Docs Path: Group Them</div><div class="step-label">by service line / sector</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box green">Merge + Fetch Chunks</div><div class="step-label">deduplicate, rank, cite</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><div class="step-box highlight">Claude Synthesises</div><div class="step-label">specific + grouped answer</div></div>
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-q">Example A: <span>"Which RFPs have budgets over USD 2M, and what are they for?"</span></div>
+    <div class="steps-list">
+      <div class="step-item"><div class="step-num hybrid">1</div>
+        <div class="step-text"><strong>Lookup path:</strong> filter all budget nodes where <code>max</code> ≥ 2,000,000 → 23 RFPs qualify; 3 sit entirely above USD 2M</div></div>
+      <div class="step-item"><div class="step-num hybrid">2</div>
+        <div class="step-text"><strong>Graph traversal:</strong> for each budget, hop back <code>has_budget</code> → service, then <code>requires</code> → client, to name what each spend is for</div></div>
+      <div class="step-item"><div class="step-num hybrid">3</div>
+        <div class="step-text"><strong>Across-docs path:</strong> the high-value cluster concentrates in three service lines — Enterprise Software Platform, Application Support, and ERP Implementation</div></div>
+      <div class="step-item"><div class="step-num hybrid">4</div>
+        <div class="step-text"><strong>Merged answer:</strong> the filtered list, each tied to its service and sector, with page citations</div></div>
+    </div>
+    <div class="result-box">
+      <strong>Top 3 (entire range above USD 2M):</strong><br/>
+      RFP-051 — Enterprise Software Platform, Hospitality — USD 2.16M–3.39M<br/>
+      RFP-050 — Application Support Services, Insurance — USD 2.16M–2.78M<br/>
+      RFP-031 — Enterprise Software Platform, Hospitality — USD 2.13M–2.68M<br/><br/>
+      <strong>Why hybrid:</strong> "over USD 2M" is a <em>filter</em> (lookup path); "what are they for" is a <em>grouping</em> (across-docs path). One question, both engines.
+    </div>
+  </div>
+</div>
+
+<!-- COMPARE TABLE -->
+<div class="panel" id="panel-compare">
+  <table>
+    <tr>
+      <th>Dimension</th>
+      <th><span class="tag local">SIMPLE LOOKUP</span></th>
+      <th><span class="tag global">ACROSS DOCS</span></th>
+      <th><span class="tag hybrid">CONNECTED</span></th>
+    </tr>
+    <tr>
+      <td><strong>Best for</strong></td>
+      <td>A specific fact about one RFP or service</td>
+      <td>Trends &amp; comparisons across many RFPs</td>
+      <td>Questions that filter <em>and</em> group</td>
+    </tr>
+    <tr>
+      <td><strong>First step</strong></td>
+      <td>Match keyword → entities.json</td>
+      <td>Score the 10 community clusters</td>
+      <td>Both paths run together</td>
+    </tr>
+    <tr>
+      <td><strong>Traversal</strong></td>
+      <td>1–2 hops through relationships.json</td>
+      <td>Read cluster summaries, then entities</td>
+      <td>Entity filter + cluster grouping merged</td>
+    </tr>
+    <tr>
+      <td><strong>Example question</strong></td>
+      <td>"What's the budget for the Energy ERP RFP?"<br/>"What scope does RFP-002 cover?"</td>
+      <td>"Compare cloud vs ERP drivers"<br/>"Which RFPs want process standardization?"</td>
+      <td>"Which RFPs top USD 2M and what for?"<br/>"High-budget RFPs by sector"</td>
+    </tr>
+    <tr>
+      <td><strong>Scales to 100+ RFPs?</strong></td>
+      <td>Yes — entity lookup is instant</td>
+      <td>Yes — reads 10 summaries, not 100 files</td>
+      <td>Yes — same efficiency gains</td>
+    </tr>
+    <tr>
+      <td><strong>Citation source</strong></td>
+      <td>Source chunk (document + page)</td>
+      <td>Community summary + source chunk</td>
+      <td>Both</td>
+    </tr>
+  </table>
+</div>
+
+<script>
+function show(id) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + id).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
